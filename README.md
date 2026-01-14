@@ -21,24 +21,30 @@ La trazabilidad temporal y estructural de los datasets.
 Marco metodológico
 La metodología se basa en un pipeline automatizado de cuatro fases, alineado con estándares de datos abiertos y buenas prácticas internacionales.
 
-Estructura del repositorio
+## Estructura del repositorio
+
+El repositorio se organiza siguiendo las cuatro fases del pipeline metodológico definido en el TFM.
+
+```text
 TFM_MIOT_YZG/
 │
 ├── Punto 1 Extraccion_MetadatosDatasets/
 │   ├── Update_Script_Punto1_Extraccion_MetadatosDatasets_CKAN_V1.ipynb
-│   └── (scripts auxiliares de extracción por portal)
+│   └── (scripts de extracción de metadatos por portal)
 │
 ├── Punto 2 Reutilizacion_Extraccion_Huellas/
-│   └── (scripts experimentales – no forman parte del índice final de madurez)
+│   └── (scripts experimentales para detección de huellas de reutilización;
+│       no forman parte del índice final de madurez)
 │
 ├── Punto 3 Construccion_MetricasMadurezPortal/
-│   └── (scripts de cálculo de métricas e índice de madurez)
+│   └── (scripts para el cálculo de métricas e índice de madurez)
 │
-├── Punto 4 Visualizacion_GraficasResultados/
-│   └── (notebooks y scripts de visualización de resultados)
+├── Punto 4 Visualizacion_GraficasyResultados/
+│   └── (notebooks de visualización y análisis de resultados)
 │
 ├── LICENSE
 └── README.md
+
 
 Requisitos técnicos
 Entorno recomendado: Jupyter Notebook
