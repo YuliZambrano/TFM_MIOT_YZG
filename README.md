@@ -252,7 +252,12 @@ Adicionalmente se incluye una versión distinta para PaisesFueraUe que se ha dis
 
 Scripts:
 
+Aca se muestran 4 versiones del script de reutilizacion, para usar con el resultado del punto 1
+
 - Script_Punto2_Reutilizacion_Extraccion_Huellas_V1.ipynb  
+- Script_Punto2_Reutilizacion_Extraccion_Huellas_V2.ipynb  
+- Script_Punto2_Reutilizacion_Extraccion_Huellas_V3.ipynb  
+- Script_Punto2_Reutilizacion_Extraccion_Huellas_V4.ipynb  
 - Script_Punto2_Reutilizacion_Extraccion_Huellas_ParaFueraUE.ipynb  
 
 Este script es un aporte metodológico para trabajos futuros, se realizan varias versiones que buscan el resultado de huellas de reutilización de un dataset, en fuentes que describen proyectos de investigación, para este script se usa como punto de entrada el archivo resultado del Punto 1. Está la version de ParaFueraUE que para el portal usado si trajo resultados. Se coloca el nombre del archivo de entrada y se ejecuta. Los resultados traeran archivos en csv y xlsx.
@@ -274,10 +279,15 @@ Este script construye las métricas para poder realizar el análisis de resultad
 
 Script:
 
-- Script_Punto4_Visualizacion_GraficasyResultados_V3.ipynb  
+- Script_Punto 4 Visualizacion_GraficasyResultados_PorPortal.ipynb
+- Script_Punto 4 Visualizacion GraficasyResultados_TodoslosPortales.ipynb
+- Script_Punto4_Boxplot_Desviacion.ipynb
+- Script_Punto4_Test_ANOVA_Kruskal.ipynb
 
-Scrip_Punto 4 Visualizacion GraficasyResultados_V3.ipynb
+
 Este script construye todas las gráficas necesarias del análisis de resultados, el script imprime en un archivo html, todas las gráficas de cada portal y las de comparaciones entre portales. Usa el archivo resultado del Punto 3 como archivo de entrada.
+Adicionalmente se agregan 2 script que complementan el analisis de resultados Boxplot_Desviacion y Test_ANOVA_Kruskal
+
 
 
 ---
